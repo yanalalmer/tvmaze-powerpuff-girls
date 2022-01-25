@@ -1,6 +1,7 @@
 # An app to show a list of The Powerpuff Girls TV Show using the TVMaze Api
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses the [TVMaze Api](https://www.tvmaze.com/)
 
 ## Project overview
 
