@@ -1,6 +1,7 @@
 import React from 'react';
 // icons
 import {FaFacebook, FaInstagram, FaTwitter} from 'react-icons/fa'
+import logo from '../../images/logo.png'
 // styles
 import {
   FooterContainer,
@@ -10,7 +11,8 @@ import {
   FooterTitle,
   FooterList,
   FooterItem,
-  FooterIcon
+  FooterIcon,
+  FooterLogo
 } from './styles'
 
 const footerCol = [
@@ -94,6 +96,7 @@ const Footer = () => {
               </FooterCol>
             ))
           }
+          <FooterLogo src={logo} alt='logo'/>
         </FooterRow>
       </FooterWrapper>
     </FooterContainer>

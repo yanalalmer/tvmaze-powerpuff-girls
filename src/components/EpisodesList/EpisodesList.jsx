@@ -41,7 +41,7 @@ const EpisodesList = () => {
             <EpisodesTableRow key={episode?.id}>
               <EpisodesTableData><EpisodeTableImage src={episode?.image?.medium || demoImage} /></EpisodesTableData>
               <EpisodesTableData>{episode?.name}</EpisodesTableData>
-              <EpisodesTableData>{episode?.summary ? parse(`${episode.summary}`) : ''}</EpisodesTableData>
+              <EpisodesTableData>{episode?.summary ? parse(`${episode.summary}`) : 'No summary available for this episode'}</EpisodesTableData>
               <EpisodesTableData>{episode?.season}</EpisodesTableData>
               <EpisodesTableData>{episode?.number}</EpisodesTableData>
               <EpisodesTableData><Link to={`/season/${episode?.season}/episode/${episode?.number}`}>Show Details</Link></EpisodesTableData>

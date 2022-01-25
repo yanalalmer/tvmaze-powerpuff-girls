@@ -65,3 +65,10 @@ export const FooterIcon = styled.span`
     color: #fff;
     margin-right: 4px;
 `
+export const FooterLogo = styled.img`
+    width: 25%;
+    
+    @media ${breakpoint.md} {
+        margin-left: ${variable.mdSpacing};
+    }
+`
