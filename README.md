@@ -28,11 +28,15 @@ _ react-router
 _ react-router-dom
 _ [html-react-parser](https://www.npmjs.com/package/html-react-parser)
 
-### To see the project
+## To see the project
 
-The project is built online here: https://elegant-sinoussi-111ce8.netlify.app/
+The project is built online here: https://nifty-mccarthy-4f6c06.netlify.app/
 
 You can also clone the repo, run 'npm install' to install dependencies, then 'npm start' to start the project in your local:3000 environment
+
+## Future endevours
+
+Adding a list filtering capabalities by different categories and a couple of test cases.
 
 ## Learn More
 
