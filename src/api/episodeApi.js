@@ -1,6 +1,6 @@
 import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 
-const baseUrl = 'https://api.tvmaze.com/shows/6771'
+const baseUrl = `${process.env.REACT_APP_BASE_URL}`
 
 const createRequest = (url) => ({url})
 
