@@ -5,6 +5,7 @@ export const FooterContainer = styled.footer`
     background-color: #24262b;
     padding: ${variable.xxlSpacing};
     width: 100%;
+    margin-top: ${variable.xxlSpacing};
 
     @media ${breakpoint.md} {
         padding: ${variable.mdSpacing};
@@ -54,6 +55,7 @@ export const FooterItem = styled.li`
     transition: all 0.3s ease-in-out;
     display: flex;
     justify-content: centers;
+    text-transform: capitalize;
 
     :hover {
         padding-left: ${variable.smSpacing};

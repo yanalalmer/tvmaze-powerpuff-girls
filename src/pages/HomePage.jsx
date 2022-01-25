@@ -1,9 +1,11 @@
 import React from 'react';
+// components
+import { EpisodesList } from '../components'
 
 const HomePage = () => {
   return (
     <>
-        this is my homepage
+      <EpisodesList />
     </>
   )
 };

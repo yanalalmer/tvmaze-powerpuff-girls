@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {variable,space,breakpoint} from '../../styles/variables'
+import {variable, breakpoint} from '../../styles/variables'
 
 export const NavbarContainer = styled.nav`
     position: sticky;
@@ -12,6 +12,7 @@ export const NavbarContainer = styled.nav`
     justify-content: space-evenly;
     padding: 0 ${variable.xxlSpacing};
     z-index: 20;
+    margin-bottom: ${variable.xxlSpacing};
     @media ${breakpoint.sm} {
         padding: 0 ${variable.mdSpacing};
     }
@@ -25,7 +26,7 @@ export const NavbarLogo = styled.img`
 export const NavbarRightSection = styled.div`
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 `
 export const NavbarMenu = styled.ul`
     position: relative;
