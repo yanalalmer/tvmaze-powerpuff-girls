@@ -11,10 +11,7 @@ export const EpisodesListTable = styled.table`
    border-spacing: 0;
 `
 export const EpisodesTableRow = styled.tr`
-    :nth-child(even) {
-        background-color: ${({theme}) => theme.grey};
-        color: black;
-    }
+    border-bottom: 1px solid ${({theme}) => theme.bg2};
 `
 export const EpisodesListTableHead = styled.thead`
     background-color: ${({theme}) => theme.grey};
@@ -27,7 +24,8 @@ export const EpisodesTableHeader = styled.th`
 `
 export const EpisodesListTableBody = styled.tbody``
 export const EpisodeTableImage = styled.img`
-    height: 100%;
+    width: 20rem;
+    height: 5rem;
 `
 export const EpisodesTableData = styled.td`
     text-align: center;
