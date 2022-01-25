@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { episodeApi } from '../api/episodeApi'
-import uiSlice from "./slices/uiSlice";
+import uiSlice from './slices/uiSlice';
 
 export default configureStore({
     reducer: {

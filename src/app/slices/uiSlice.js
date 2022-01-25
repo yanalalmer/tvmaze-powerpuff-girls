@@ -1,14 +1,14 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const uiSlice = createSlice({
-    name: "ui",
+    name: 'ui',
     initialState: {
-        theme: "light",
+        theme: 'light',
         menuOpen: false
     },
     reducers: {
         toggleTheme(state) {
-            state.theme = state.theme === "light" ? "dark" : "light";
+            state.theme = state.theme === 'light' ? 'dark' : 'light';
         },
         menuToggle(state) {
             state.menuOpen = !state.menuOpen
