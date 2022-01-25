@@ -1,7 +1,10 @@
 import React from 'react'
 // tools
 import { Link } from 'react-router-dom'
+// state
 import { useGetAllEpisodesQuery } from '../../api/episodeApi'
+// components
+import { Loading } from '../index'
 import parse from 'html-react-parser'
 // styles
 import {
@@ -19,7 +22,7 @@ const demoImage = 'https://static.tvmaze.com/uploads/images/original_untouched/2
 
 const EpisodesList = () => {
   const {data: episodes, isFetching} = useGetAllEpisodesQuery()
-  if(isFetching) return 'Loading....'
+  if(isFetching) return <Loading />
   
   return (
     <EpisodesListTable>

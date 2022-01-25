@@ -4,6 +4,8 @@ import { useParams } from 'react-router';
 import parse from 'html-react-parser'
 // state
 import { useGetEpisodeDetailsQuery } from '../../api/episodeApi';
+// components
+import { Loading } from '../index'
 // styles
 import {
     EpisdoeCardContainer,
@@ -22,7 +24,7 @@ const EpisodeCard = () => {
     const { season, number } = useParams()
     const { data: episode, isFetching } = useGetEpisodeDetailsQuery({season, number})
 
-    if(isFetching) return 'Loading....'
+    if(isFetching) return <Loading />
     return (
         <EpisdoeCardContainer>
             <EpisodeCardImageContainer>
