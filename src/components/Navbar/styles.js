@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {variable, breakpoint} from '../../styles/variables'
+import { variable, breakpoint } from '../../styles/variables'
 
 export const NavbarContainer = styled.nav`
     position: sticky;

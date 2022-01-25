@@ -1,5 +1,4 @@
-import styled, { keyframes } from "styled-components";
-import { variable } from "../../styles/variables";
+import styled, { keyframes } from 'styled-components';
 
 const clockwise = keyframes`
     to {

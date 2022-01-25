@@ -1,43 +1,37 @@
-# Getting Started with Create React App
+# An app to show a list of The Powerpuff Girls TV Show using the TVMaze Api
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project overview
 
-In the project directory, you can run:
+Project was done in response to a technical assingment. The project is a simple 2 pages routing, one for a list of all episodes of the show and one page for each episode details which includes the episode's number, season and the date it was first aired.
 
-### `npm start`
+The project has dark mode that can be switched to/from using a button in the main navigation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies and tools used:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Languages and framework:
+_ React
+_ JavaScript
+_ HTML/CSS
+Styling:
+_ [styled-components](https://styled-components.com/)
+_ [react-icons](https://react-icons.github.io/react-icons)
+State management:
+_ redux
+_ redux-toolkit
+Tools:
+_ eslint
+_ [react-helmet](https://github.com/nfl/react-helmet)
+_ react-router
+_ react-router-dom
+_ [html-react-parser](https://www.npmjs.com/package/html-react-parser)
 
-### `npm test`
+### To see the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is built online here: https://elegant-sinoussi-111ce8.netlify.app/
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You can also clone the repo, run 'npm install' to install dependencies, then 'npm start' to start the project in your local:3000 environment
 
 ## Learn More
 

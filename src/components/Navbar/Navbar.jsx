@@ -2,7 +2,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 // state
-import { uiActions } from "../../app/slices/uiSlice";
+import { uiActions } from '../../app/slices/uiSlice';
 // tools
 import { Link } from 'react-router-dom';
 // logo

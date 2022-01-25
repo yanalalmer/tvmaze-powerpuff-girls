@@ -1,6 +1,6 @@
 // variables  
 export const variable = {
-    headerHeight: "65px",
+    headerHeight: '65px',
     smSpacing: `8px`,
     mdSpacing: `16px`,
     lgSpacing: `32px`,
@@ -10,11 +10,11 @@ export const variable = {
 };
 // spaces
 export const space = {
-    xxl: "1460px",
-    xl: "1200px",
-    lg: "1024px",
-    md: "768px",
-    sm: "600px",
+    xxl: '1460px',
+    xl: '1200px',
+    lg: '1024px',
+    md: '768px',
+    sm: '600px',
 };
 // BREAKPOINTS
 export const breakpoint = {

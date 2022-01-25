@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {variable,space,breakpoint} from '../../styles/variables'
+import { variable,space,breakpoint } from '../../styles/variables'
 
 export const FooterContainer = styled.footer`
     background-color: #24262b;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 // state
-import { uiActions } from "../../app/slices/uiSlice";
+import { uiActions } from '../../app/slices/uiSlice';
 // styles
 import { 
     ThemeToggleButtonContainer,
