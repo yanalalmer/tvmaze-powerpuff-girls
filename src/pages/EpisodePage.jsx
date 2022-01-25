@@ -1,9 +1,11 @@
 import React from 'react';
+// components
+import { EpisodeCard } from '../components'
 
 const EpisodePage = () => {
   return (
     <>
-        this is my episdoe page
+      <EpisodeCard />
     </>
   )
 };

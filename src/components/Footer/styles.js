@@ -12,7 +12,7 @@ export const FooterContainer = styled.footer`
     }
 `
 export const FooterWrapper = styled.div`
-    max-width: 1170px;
+    max-width: ${space.xxl};
     margin: 0 auto;
 `
 export const FooterRow = styled.div`
