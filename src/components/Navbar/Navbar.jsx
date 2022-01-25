@@ -40,9 +40,6 @@ const Navbar = () => {
           <Link to='/' onClick={menuCloseHandler}>
             <NavbarItem>Home</NavbarItem>
           </Link>
-          <Link to='/all' onClick={menuCloseHandler}>
-            <NavbarItem>Archive</NavbarItem>
-          </Link>
           <a href='https://www.tvmaze.com/' target='_blank' rel='noreferrer' onClick={menuCloseHandler}>
             <NavbarItem>The Api</NavbarItem>
           </a>

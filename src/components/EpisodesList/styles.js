@@ -6,7 +6,6 @@ export const EpisodesListTable = styled.table`
    max-width: ${space.xxl};
    margin: 0 auto;
    padding: ${variable.mdSpacing};
-   box-shadow: ${({theme}) => theme.boxshadow};
    border-collapse: collapse;
    border-spacing: 0;
 `
@@ -18,6 +17,10 @@ export const EpisodesListTableHead = styled.thead`
     color: ${({theme}) => theme.textSecondary};
     text-transform: uppercase;
     font-size: 20px;
+
+    tr {
+        border-bottom: none;
+    }
 `
 export const EpisodesTableHeader = styled.th`
     padding: 10px;

@@ -15,7 +15,7 @@ export const darkTheme = {
     textSecondary: '#F571B5',
     bg: '#000',
     bg2: '#fff',
-    grey: '#f2f2f2',
+    grey: '#282828',
     boxshadow: `0 1px 1px rgba(255,255,255,0.15), 
     0 2px 2px rgba(255,255,255,0.15), 
     0 4px 4px rgba(255,255,255,0.15), 
